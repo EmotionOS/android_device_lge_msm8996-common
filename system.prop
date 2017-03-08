@@ -111,7 +111,7 @@ persist.rild.nitz_short_ons_0=
 persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
-ril.subscription.types=NV,RUIM
+ril.subscription.types=NV
 DEVICE_PROVISIONED=1
 persist.radio.data_ltd_sys_ind=1
 ro.telephony.default_network=10
@@ -123,6 +123,10 @@ persist.data.qmi.adb_logmask=0
 persist.net.doxlat=true
 persist.oem.dump=0
 persist.radio.ignore_dom_time=5
+persist.radio.hw_mbn_update=0
+persist.radio.sw_mbn_update=0
+persist.radio.start_ota_daemon=1
+ro.ril.telephony.mqanelements=5
 ro.telephony.ril_class=LgeLteRIL
 
 # Radio - Data/RMNet
