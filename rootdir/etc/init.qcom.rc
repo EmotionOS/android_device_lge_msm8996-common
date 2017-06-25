@@ -37,11 +37,6 @@ on charger
 
     # Setup zram options
     write /sys/block/zram0/comp_algorithm lz4
-	
-service charger /charger
-    class charger
-    group system graphics
-    seclabel u:r:healthd:s0
 
 on init
     # Support legacy paths
